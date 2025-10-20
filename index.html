@@ -29,7 +29,7 @@
             <p class="hero-subtitle">Une communauté passionnée par le développement de jeux vidéo et l'innovation technologique. Rejoignez-nous pour créer l'avenir du gaming ! 🚀</p>
             <div class="hero-buttons">
                 <a href="https://discord.gg/2kDzyARjNb" target="_blank" class="btn btn-primary">Rejoindre la Communauté</a>
-                <button class="btn btn-secondary" href="https://gamelys.github.io/lostsoul.html">Voir notre communauté Gaming</button>
+                <button class="btn btn-secondary" id="myButton">Voir notre communauté Gaming</button>
             </div>
         </section>
 
@@ -88,5 +88,10 @@
     </footer>
 
     <script src="js/index.js"></script>
+    <script type="text/javascript">
+        document.getElementById("myButton").onclick = function () {
+            location.href = "www.yoursite.com";
+        };
+    </script>
 </body>
 </html>
