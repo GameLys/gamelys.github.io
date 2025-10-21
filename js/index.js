@@ -42,7 +42,7 @@ async function fetchDiscordMembers() {
     try {
         // Note: Cette méthode utilise l'invite Discord pour récupérer les infos
         // Vous devrez peut-être configurer un bot Discord ou utiliser une API tierce
-        const response = await fetch('https://discord.com/api/v10/invites/2kDzyARjNb?with_counts=true');
+        const response = await fetch('https://discord.com/api/v10/invites/kfzjBfYV8J?with_counts=true');
         const data = await response.json();
         document.getElementById('memberCount').textContent = data.approximate_member_count;
     } catch (error) {
